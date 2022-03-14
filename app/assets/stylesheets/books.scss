@@ -8,6 +8,7 @@
 }
 
 body {
+  justify-content: center;
   margin: 30px;
 }
 
@@ -16,12 +17,34 @@ tr,h4 {
 }
 
 
-.title {
-  display: inline-block;
-  margin: 0 30px;
+
+th {
+  justify-content: center;
 }
 
 .body {
   display: inline-block;
-  margin: 0 100px;
+  justify-content: center;
 }
+
+td {
+  font-size: 12px;
+  padding: 3px 6px 3px 0;
+}
+
+
+
+
+a:hover {
+  color: red;
+}
+
+
+a:active {
+  color: block;
+}
+
+h5 {
+  padding: 20px;
+}
+
